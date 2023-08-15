@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: rgba(225, 225, 225, 0.3);
+}
+
+.main-nav {
+    text-align: center;
+    border-bottom: 1px solid rgba(225, 225, 225, 0.3);
+    font-size: 1.1em;
+    font-weight: lighter;
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.main-header {
+    background-image: url(Images/Header\ Background.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode:multiply;
+    padding-bottom: 30px;
+}
+
+.band-name {
+    text-align: center;
+    font-family: "Booter - Zero Zero";
+    font-size: 4em;
+    margin: 0;
+    font-weight: normal;
+    color: white;
+}
+
+.band-name-larger {
+    font-size: 8em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 1.5em;
+    max-width: 900px;
+}
+
+.section-header {
+    font-family: "Metal Mania";
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: normal;
+    color: #333;
+}
+
+.about-band-image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 15px;
+}
+
+.main-footer {
+    background-color: #56CCF2;
+    color: white;
+    padding: 0.25em 0;
+}
+
+.icons-container {
+    display: flex;
+    align-items: center;
+}
+
+.icons-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
